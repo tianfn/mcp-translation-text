@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/translation_server.py
+src/mcp_translation_text.egg-info/PKG-INFO
+src/mcp_translation_text.egg-info/SOURCES.txt
+src/mcp_translation_text.egg-info/dependency_links.txt
+src/mcp_translation_text.egg-info/entry_points.txt
+src/mcp_translation_text.egg-info/requires.txt
+src/mcp_translation_text.egg-info/top_level.txt

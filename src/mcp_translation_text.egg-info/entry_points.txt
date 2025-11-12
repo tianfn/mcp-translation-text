@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-translation-text = translation_server:main

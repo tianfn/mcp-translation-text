@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-translation-text"
+version = "1.0.6"
+description = "MCP provider wrapping the Niutrans translation API"
+authors = [{ name = "Niutrans", email = "tianfengning@niutrans.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["mcp", "translation", "niutrans", "ai" ]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+requires-python = ">=3.10"
+dependencies = [
+  "mcp[cli]>=0.2.0",
+  "requests>=2.31.0"
+]
+
+[project.optional-dependencies]
+dev = ["uv"]
+
+[project.scripts]
+mcp-translation-text = "translation_server:main"
+
+[project.urls]
+Homepage = "https://niutrans.com"
+Source = "https://github.com/niutrans/mcp-translation-text"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["translation_server"]

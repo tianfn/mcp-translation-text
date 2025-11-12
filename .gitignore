@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv/
+venv/
+/.idea/
+/.vscode/
+/coverage/
+**/__pycache__/
