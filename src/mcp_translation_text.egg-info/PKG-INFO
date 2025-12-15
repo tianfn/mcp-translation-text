@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: mcp-translation-text
-Version: 1.0.6
+Version: 1.0.7
 Summary: MCP provider wrapping the Niutrans translation API
 Author-email: Niutrans <tianfengning@niutrans.com>
 License: MIT
@@ -36,7 +36,7 @@ uv tool install mcp-translation-text
 
 ## 环境变量
 
-- `NIUTRANS_API_KEY`（必填）：小牛翻译开放平台提供的 API Key,可免费使用, 请登录后获取:https://niutrans.com/cloud/account_info/info。
+- `NIUTRANS_API_KEY`（必填）：小牛翻译开放平台提供的 API Key,可免费使用, 请登录后获取:https://niutrans.com/cloud/account_info/info
 
 ## MCP 客户端配置示例
 
@@ -88,7 +88,7 @@ uv tool install mcp-translation-text
 
 ```json
 {
-  "total": 655,
+  "total": 455,
   "languages": [
     {"code": "zh", "zh": "中文(简体)", "en": "Chinese (Simplified)"},
     {"code": "en", "zh": "英语", "en": "English"}

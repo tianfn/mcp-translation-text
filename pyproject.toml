@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcp-translation-text"
-version = "1.0.6"
+version = "1.0.7"
 description = "MCP provider wrapping the Niutrans translation API"
 authors = [{ name = "Niutrans", email = "tianfengning@niutrans.com" }]
 license = { text = "MIT" }

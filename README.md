@@ -12,7 +12,7 @@ uv tool install mcp-translation-text
 
 ## 环境变量
 
-- `NIUTRANS_API_KEY`（必填）：小牛翻译开放平台提供的 API Key,可免费使用, 请登录后获取:https://niutrans.com/cloud/account_info/info。
+- `NIUTRANS_API_KEY`（必填）：小牛翻译开放平台提供的 API Key,可免费使用, 请登录后获取:https://niutrans.com/cloud/account_info/info
 
 ## MCP 客户端配置示例
 
